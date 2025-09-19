@@ -1,0 +1,1 @@
+{"version": 2, "name": "educreate-frontend", "builds": [{"src": "package.json", "use": "@vercel/static-build", "config": {"distDir": "out"}}], "routes": [{"src": "/(.*)", "dest": "/$1"}], "env": {"NEXT_PUBLIC_API_URL": "https://educreate-backend-production.up.railway.app", "NEXT_PUBLIC_FRONTEND_URL": "https://educreate-frontend.vercel.app"}}
